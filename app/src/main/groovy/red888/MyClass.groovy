@@ -1,12 +1,11 @@
 package red888
 
 class MyClass {
-    String paramOne
-    String paramTwo
 
-    MyClass(paramOne, paramTwo) throws Exception {
-        this.paramOne = paramOne
-        this.paramTwo = paramTwo
+    // unclear why this is static in the question, but
+    // left static here for consistency
+    public static String fail(somestring) {
+        throw new RuntimeException()
     }
 
 }
